@@ -1,7 +1,23 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Robbie Santos</Authors>
+    <Product>RestrictedCallDate</Product>
+    <Description>For Contact Center TCPA &amp; DNC Compliance</Description>
+    <Company />
+    <PackageLicenseUrl></PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/robbiealixsantos/restricted-call-dates</PackageProjectUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="LICENSE.txt" Pack="true" PackagePath="" />
+  </ItemGroup>
+  
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>\\Mac\Home\Desktop\robbie-workspace\restricted-call-dates\RestrictedCallDate\RestrictedCallDate.xml</DocumentationFile>
   </PropertyGroup>
 
 </Project>
