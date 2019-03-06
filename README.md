@@ -45,3 +45,10 @@ ARMISTICE DAY - Mississippi
 THANKSGIVING DAY - 4th Thursday in November - NATIONAL - Alabama, Louisiana, Mississippi, Rhode Island, Utah
 CHRISTMAS DAY - NATIONAL - Alabama, Louisiana, Mississippi, Rhode Island, Utah
 ```
+## License
+
+License is MIT. You are free to use this software in commercial projects.
+
+## Running Locally
+
+* Open RestrictedCallDates.sln (.net Core) using Visual Studio 
