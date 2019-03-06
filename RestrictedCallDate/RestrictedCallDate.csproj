@@ -10,6 +10,8 @@
     <PackageProjectUrl>https://github.com/robbiealixsantos/restricted-call-dates</PackageProjectUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <Copyright>Robbie Santos 2019</Copyright>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

@@ -7,7 +7,7 @@ namespace RestrictedCallDates
 {
     public class UniformHolidays
     {
-       private static Dictionary<string, DateTime> GetUniformHolidays(int year)
+       public static Dictionary<string, DateTime> GetUniformHolidays(int year)
        {
             Dictionary<string, DateTime> uniformHolidays = new Dictionary<string, DateTime>();
 

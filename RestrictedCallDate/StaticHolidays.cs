@@ -6,7 +6,7 @@ namespace RestrictedCallDates
 {
     public class StaticHolidays
     {
-        private static Dictionary<string, DateTime> GetStaticHolidays(int year)
+        public static Dictionary<string, DateTime> GetStaticHolidays(int year)
         {
             Dictionary<string, DateTime> staticHolidays = new Dictionary<string, DateTime>();
 
