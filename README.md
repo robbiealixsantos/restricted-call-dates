@@ -14,7 +14,7 @@ Dictionary<string, DateTime> staticHolidays = StaticHolidays.GetStaticHolidays(2
 //Returns true or false if current date falls on any restricted call date in library
 //MARTIN LUTHER KING JR DAY -- third monday in January - Alabama, Louisiana, Mississippi, Rhode Island, Utah, Arkansas
 DateTime timeNow = new DateTime(2019, 1, 21);
-RestrictedDates.IsDateRestricted(testTimeNow)
+RestrictedDates.IsDateRestricted(timeNow)
 ```
 
 Current Holidays and Affected States
